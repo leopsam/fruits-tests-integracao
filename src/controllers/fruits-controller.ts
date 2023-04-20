@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import httpStatus from "http-status";
-
 import fruitsService, { FruitInput } from "../services/fruits-service";
 
 export function getFruits(req: Request, res: Response) {
